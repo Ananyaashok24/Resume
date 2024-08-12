@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<style>
+p{
+text-align:right;
+colour:black;}
+h1{
+text-align:center;}
+body {
+padding:70px;
+  position: scroll;
+  top:595px;
+  bottom: 595px;
+  right: 842px;
+  width:842px;
+  border: 5px solid;
+}
+.h1{
+  font-family: "Times New Roman", Times, serif;
+}
+.p{
+  font-family: "Times New Roman", Times, serif;
+}
+.h2 {
+  font-family: "Times New Roman", Times, serif;
+}
+img.a{
+vertical-align:text-bottom;
+}
+img.b{
+vertical-align:text-bottom;}
+</style>
+
+<title>Resume maker</title>
+
+<style>
+body{
+background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl2qiG-VkL3cjJ-J-yIhcT1-n401xwlgKAPwgHqB7_W0ZBJLxqZotUZR1IZJbmp3jjcDI&usqp=CAU");
+}
+</style> 
+<body>
+<a download="" href="resume.html">
+  download
+</a>
+<div id="header"></div>
+<div class="left"></div>
+<div class="stuff">
+  <h1><strong>Resume</strong></h1>
+ <img src="{{url_for('static', filename='ananya.jpeg')}}" width="90" height="80" />
+  <p><strong>Name : "Ananya Ashok Baleri"</strong></p><i class="glyphicon glyphicon-user"></i><p><strong><img class="a" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJshNOUFmYvXOZT4PBWA2XgrP0DeVj1us9w&usqp=CAU" width="25" height="20"> : +91 7676451401</strong></p>
+      <p><strong><img class="a" src="data:image/jpeg;base64,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"width="25" height="20"> : #301,Padukeri,Hegde,Kumta</strong></p>
+       
+ 
+<h2 style="background-color:Grey;">Education History</h2><br>
+    <w><strong>B.E in Electronics & Communication</strong></w><br>
+     <w>The National Institute of Engineering Mysore</w><br>
+      <w>CGPA:7.7</w><br>
+     <br><br>
+      <w><strong>PRE UNIVERSITY EDUATION</strong></w><br>
+     <w> Saraswati Pre-University,Kumta</w><br>
+      <w>Percentage 97.5%</w>
+      <br><br>
+       <w><strong>SSLC</strong></w><br>
+        <w>CVSK High School,Kumta</w><br>
+         <w>Percentage:92.64%</w>
+     <br><br>
+     <h2 style="background-color:Grey">Technical Skills</h2>
+     <li>C++</li><br>
+     <li>C</li><br>
+     <li>HTML</li><br>
+     <li>Python(basics)</li><br>
+     <li>CSS</li><br>
+     <li>Flask</li>
+     <br><br>
+  <h2 style="background-color:Grey">Projects</h2>
+   <w><strong>TIC-TAC-TOE:</strong></w><br>
+   <w>Developed a two player tic-tac-toe game with command line interface using C++</w><br><br>
+   <w><strong>Audio Equilizer:</strong></w><br>
+   <w>It is a 3-stage active equiliser filter requires 3 control BASS,MID & TREBLE</w>
+  <br><br> <w><strong>Resume Builder:</strong></w><br>
+  <w>Developed to build a resume using HTML&CSS as frontend and flask as backend </w>
+  <br><br>
+  <h2 style="background-color:Grey">Hobbies</h2>
+   <li>Dancing</li><br>
+    <li>Singing</li><br>
+     <li>Board games</li><br>
+     <li>Sudoku</li><br>
+     <li>Watching movies</li><br>
+   
+ 
+<div class="right"></div>
+<div id="footer"></div>
+</body>
+</html>
